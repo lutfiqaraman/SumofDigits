@@ -19,8 +19,7 @@ namespace SumofDigits
             Console.WriteLine("The digits");
 
             foreach (var item in a2)
-            {
-                
+            {          
                 Console.WriteLine(item);
                 sum += Convert.ToInt32(item.ToString());
             }
