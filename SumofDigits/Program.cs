@@ -11,14 +11,14 @@ namespace SumofDigits
         static void Main(string[] args)
         {
             string input = Console.ReadLine();
-            int a1 = Convert.ToInt32(input);
+            int num = Convert.ToInt32(input);
 
             int sum = 0;
-            string a2 = Convert.ToString(a1);
+            string numtostring = Convert.ToString(num);
 
             Console.WriteLine("The digits");
 
-            foreach (var item in a2)
+            foreach (var item in numtostring)
             {          
                 Console.WriteLine(item);
                 sum += Convert.ToInt32(item.ToString());
